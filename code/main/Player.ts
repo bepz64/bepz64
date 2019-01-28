@@ -456,11 +456,11 @@ class Player extends QuestEntity{
                 if(this.getTurtle() && this.getBerserk())
                     this.getRenderArea().drawString("TUR");
                 else if(this.getTurtle())
-                    this.getRenderArea().drawString("tur");
+                    this.getRenderArea().drawString(",===,°");
                 else if(this.getBerserk())
-                    this.getRenderArea().drawString("O_O");
+                    this.getRenderArea().drawString("0w0");
                 else
-                    this.getRenderArea().drawString("\\o/");
+                    this.getRenderArea().drawString("UwU");
             break;
             case PlayerCharacterType.CANDYBOX_SQUEEZED:
                 if(this.getTurtle() && this.getBerserk())
