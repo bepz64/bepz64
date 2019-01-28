@@ -422,7 +422,7 @@ class ATree extends Place{
             // First question (do you like candies)
             case 1:
                 this.drawSpeech(Database.getText("mapATreeFirstQuestion"), Database.getTranslatedText("mapATreeFirstQuestion"));
-                this.addEnigma(new EnigmaAnswerStrings(["yes", "y", "yeah", "yeap", "yep"]), new CallbackCollection(this.nextStep.bind(this), this.reward1.bind(this)), "aTreeFirstQuestionEnigma", "aTreeFirstQuestionWrong");
+                this.addEnigma(new EnigmaAnswerStrings(["21"]), new CallbackCollection(this.nextStep.bind(this), this.reward1.bind(this)), "aTreeFirstQuestionEnigma", "aTreeFirstQuestionWrong");
             break;
             // Second question (S E I D N A ?)
             case 2:
